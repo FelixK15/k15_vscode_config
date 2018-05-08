@@ -1,2 +1,7 @@
-# k15_vscode_config
-My configuration for visual studio code
+# Visual Studio Configuration
+
+Target Folders:
+-  settings.json & keybindings.json & snippets folder
+Users/[user]/AppData/Roaming/Code/User 
+
+- tasks.json & launch.json to individual project files
