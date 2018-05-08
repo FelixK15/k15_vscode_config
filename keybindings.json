@@ -1,11 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "shift+alt+g",
-        "command": "editor.action.goToImplementation",
-        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
-    },
-    {
         "key": "ctrl+f12",
         "command": "-editor.action.goToImplementation",
         "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
@@ -33,7 +28,7 @@
     },
     {
         "key": "f12",
-        "command": "-editor.action.goToDeclaration",
+        "command": "editor.action.goToDeclaration",
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
@@ -109,11 +104,16 @@
         "when": "terminalFocus"
     },
     {
-        "key": "shift+tab",
+        "key": "ctrl+tab",
         "command": "workbench.action.focusNextGroup"
     },
     {
         "key": "ctrl+k ctrl+right",
         "command": "-workbench.action.focusNextGroup"
-    }
+    },
+    {
+        "key": "ctrl+f12",
+        "command": "-C_Cpp.GoToDeclaration",
+        "when": "editorTextFocus && editorLangId == 'c'"
+    },
 ]
