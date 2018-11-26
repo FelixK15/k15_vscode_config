@@ -1,4 +1,4 @@
 {
     "workbench.sideBar.location": "left",
-    "editor.tabCompletion": true
+    "editor.tabCompletion": "on"
 }
