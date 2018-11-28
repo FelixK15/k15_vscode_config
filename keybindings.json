@@ -94,16 +94,6 @@
         "when": "textInputFocus"
     },
     {
-        "key": "alt+left",
-        "command": "-workbench.action.terminal.focusPreviousPane",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+right",
-        "command": "-workbench.action.terminal.focusNextPane",
-        "when": "terminalFocus"
-    },
-    {
         "key": "ctrl+tab",
         "command": "workbench.action.focusNextGroup"
     },
