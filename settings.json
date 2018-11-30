@@ -1,4 +1,10 @@
 {
     "workbench.sideBar.location": "left",
-    "editor.tabCompletion": "on"
+    "editor.tabCompletion": "on",
+    "editor.useTabStops": true,
+    "editor.tabSize": 4,
+
+    //FK:   Using the custom bar gives you more 'space' on linux
+    //      since the title is not it's own horizontal line
+    "window.titleBarStyle": "custom"
 }
